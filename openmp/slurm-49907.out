@@ -1,0 +1,19 @@
+g++ -fopenmp prefix_sum.cpp -o prefix_sum
+Size: 10000, Threads: 2, Time: 6.49082e-05 seconds, Speedup: 1.44038
+Size: 10000, Threads: 4, Time: 4.90002e-05 seconds, Speedup: 1.908
+Size: 10000, Threads: 8, Time: 5.4094e-05 seconds, Speedup: 1.72833
+Size: 10000, Threads: 16, Time: 0.000131054 seconds, Speedup: 0.713386
+Size: 10000, Threads: 32, Time: 0.0179446 seconds, Speedup: 0.00521003
+Size: 10000, Threads: 64, Time: 0.00163928 seconds, Speedup: 0.0570326
+Size: 20000, Threads: 2, Time: 0.000132012 seconds, Speedup: 1.41952
+Size: 20000, Threads: 4, Time: 0.000287646 seconds, Speedup: 0.651475
+Size: 20000, Threads: 8, Time: 6.12362e-05 seconds, Speedup: 3.06019
+Size: 20000, Threads: 16, Time: 8.16502e-05 seconds, Speedup: 2.29509
+Size: 20000, Threads: 32, Time: 0.0213637 seconds, Speedup: 0.00877161
+Size: 20000, Threads: 64, Time: 0.000511825 seconds, Speedup: 0.36613
+Size: 30000, Threads: 2, Time: 0.000178844 seconds, Speedup: 1.55219
+Size: 30000, Threads: 4, Time: 9.78482e-05 seconds, Speedup: 2.83705
+Size: 30000, Threads: 8, Time: 0.000117682 seconds, Speedup: 2.3589
+Size: 30000, Threads: 16, Time: 8.53902e-05 seconds, Speedup: 3.25096
+Size: 30000, Threads: 32, Time: 0.0201424 seconds, Speedup: 0.0137819
+Size: 30000, Threads: 64, Time: 0.00157742 seconds, Speedup: 0.175984

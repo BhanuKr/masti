@@ -1,0 +1,400 @@
+Running with 1 processes, iteration 1
+Element not found
+Time: 0.00268512 milliseconds
+Speedup: 1.02855
+Running with 1 processes, iteration 2
+Element not found
+Time: 0.00268367 milliseconds
+Speedup: 1.01273
+Running with 1 processes, iteration 3
+Element not found
+Time: 0.00268269 milliseconds
+Speedup: 0.997939
+Running with 1 processes, iteration 4
+Element not found
+Time: 0.00268646 milliseconds
+Speedup: 1.00014
+Running with 1 processes, iteration 5
+Element not found
+Time: 0.00268023 milliseconds
+Speedup: 1.00156
+Running with 1 processes, iteration 6
+Element not found
+Time: 0.00268632 milliseconds
+Speedup: 0.995391
+Running with 1 processes, iteration 7
+Element not found
+Time: 0.00268351 milliseconds
+Speedup: 0.998573
+Running with 1 processes, iteration 8
+Element not found
+Time: 0.00268853 milliseconds
+Speedup: 0.999631
+Running with 1 processes, iteration 9
+Element not found
+Time: 0.00268681 milliseconds
+Speedup: 0.995664
+Running with 1 processes, iteration 10
+Element not found
+Time: 0.00267964 milliseconds
+Speedup: 0.999071
+Running with 1 processes, iteration 11
+Element not found
+Time: 0.0026779 milliseconds
+Speedup: 0.999425
+Running with 1 processes, iteration 12
+Element not found
+Time: 0.00268262 milliseconds
+Speedup: 1.00067
+Running with 1 processes, iteration 13
+Element not found
+Time: 0.00268343 milliseconds
+Speedup: 0.999672
+Running with 1 processes, iteration 14
+Element not found
+Time: 0.00268229 milliseconds
+Speedup: 0.998281
+Running with 1 processes, iteration 15
+Element not found
+Time: 0.00267679 milliseconds
+Speedup: 1.00108
+Running with 1 processes, iteration 16
+Element found at index: 826902
+Time: 0.00221439 milliseconds
+Speedup: 0.997913
+Running with 1 processes, iteration 17
+Element found at index: 826902
+Time: 0.00222065 milliseconds
+Speedup: 0.997168
+Running with 1 processes, iteration 18
+Element found at index: 826902
+Time: 0.0022234 milliseconds
+Speedup: 0.997513
+Running with 1 processes, iteration 19
+Element not found
+Time: 0.00269083 milliseconds
+Speedup: 0.997194
+Running with 1 processes, iteration 20
+Element not found
+Time: 0.00267499 milliseconds
+Speedup: 1.00107
+Running with 8 processes, iteration 1
+Element not found
+Time: 0.000367571 milliseconds
+Speedup: 7.34339
+Running with 8 processes, iteration 2
+Element not found
+Time: 0.000361531 milliseconds
+Speedup: 7.42784
+Running with 8 processes, iteration 3
+Element not found
+Time: 0.000375391 milliseconds
+Speedup: 7.15085
+Running with 8 processes, iteration 4
+Element not found
+Time: 0.00036443 milliseconds
+Speedup: 7.38662
+Running with 8 processes, iteration 5
+Element not found
+Time: 0.000360171 milliseconds
+Speedup: 7.53757
+Running with 8 processes, iteration 6
+Element found at index: 634621
+Time: 0.000370171 milliseconds
+Speedup: 4.62144
+Running with 8 processes, iteration 7
+Element found at index: 634621
+Time: 0.000362221 milliseconds
+Speedup: 4.69513
+Running with 8 processes, iteration 8
+Element not found
+Time: 0.000388061 milliseconds
+Speedup: 7.01422
+Running with 8 processes, iteration 9
+Element not found
+Time: 0.000358531 milliseconds
+Speedup: 7.70473
+Running with 8 processes, iteration 10
+Element not found
+Time: 0.000362881 milliseconds
+Speedup: 7.58983
+Running with 8 processes, iteration 11
+Element not found
+Time: 0.000682631 milliseconds
+Speedup: 4.1645
+Running with 8 processes, iteration 12
+Element not found
+Time: 0.00036158 milliseconds
+Speedup: 7.71646
+Running with 8 processes, iteration 13
+Element not found
+Time: 0.00037522 milliseconds
+Speedup: 7.1345
+Running with 8 processes, iteration 14
+Element not found
+Time: 0.000388411 milliseconds
+Speedup: 7.06858
+Running with 8 processes, iteration 15
+Element not found
+Time: 0.000385421 milliseconds
+Speedup: 7.24082
+Running with 8 processes, iteration 16
+Element not found
+Time: 0.00036353 milliseconds
+Speedup: 7.39036
+Running with 8 processes, iteration 17
+Element not found
+Time: 0.000672191 milliseconds
+Speedup: 4.11521
+Running with 8 processes, iteration 18
+Element not found
+Time: 0.000358691 milliseconds
+Speedup: 7.65273
+Running with 8 processes, iteration 19
+Element not found
+Time: 0.000378221 milliseconds
+Speedup: 7.19837
+Running with 8 processes, iteration 20
+Element not found
+Time: 0.000404941 milliseconds
+Speedup: 6.73452
+Running with 16 processes, iteration 1
+Element found at index: 951277
+Time: 0.0002412 milliseconds
+Speedup: 10.5822
+Running with 16 processes, iteration 2
+Element not found
+Time: 0.000221311 milliseconds
+Speedup: 12.124
+Running with 16 processes, iteration 3
+Element not found
+Time: 0.00022977 milliseconds
+Speedup: 11.6767
+Running with 16 processes, iteration 4
+Element not found
+Time: 0.00020837 milliseconds
+Speedup: 12.8951
+Running with 16 processes, iteration 5
+Element not found
+Time: 0.0002098 milliseconds
+Speedup: 12.8285
+Running with 16 processes, iteration 6
+Element not found
+Time: 0.00021272 milliseconds
+Speedup: 12.6532
+Running with 16 processes, iteration 7
+Element not found
+Time: 0.0002059 milliseconds
+Speedup: 13.0161
+Running with 16 processes, iteration 8
+Element not found
+Time: 0.00022255 milliseconds
+Speedup: 12.0688
+Running with 16 processes, iteration 9
+Element not found
+Time: 0.000256641 milliseconds
+Speedup: 10.4529
+Running with 16 processes, iteration 10
+Element not found
+Time: 0.00021504 milliseconds
+Speedup: 12.473
+Running with 16 processes, iteration 11
+Element found at index: 159411
+Time: 0.00022433 milliseconds
+Speedup: 1.8977
+Running with 16 processes, iteration 12
+Element not found
+Time: 0.00021834 milliseconds
+Speedup: 12.2675
+Running with 16 processes, iteration 13
+Element not found
+Time: 0.000528581 milliseconds
+Speedup: 5.07197
+Running with 16 processes, iteration 14
+Element not found
+Time: 0.000246191 milliseconds
+Speedup: 10.902
+Running with 16 processes, iteration 15
+Element not found
+Time: 0.000211 milliseconds
+Speedup: 12.7167
+Running with 16 processes, iteration 16
+Element not found
+Time: 0.000492191 milliseconds
+Speedup: 5.43881
+Running with 16 processes, iteration 17
+Element not found
+Time: 0.00021989 milliseconds
+Speedup: 12.2235
+Running with 16 processes, iteration 18
+Element not found
+Time: 0.000223761 milliseconds
+Speedup: 11.9872
+Running with 16 processes, iteration 19
+Element not found
+Time: 0.000230691 milliseconds
+Speedup: 11.6111
+Running with 16 processes, iteration 20
+Element not found
+Time: 0.00020984 milliseconds
+Speedup: 12.781
+Running with 32 processes, iteration 1
+Element found at index: 655097
+Time: 0.00023322 milliseconds
+Speedup: 7.54786
+Running with 32 processes, iteration 2
+Element not found
+Time: 0.00024761 milliseconds
+Speedup: 10.8431
+Running with 32 processes, iteration 3
+Element not found
+Time: 0.000322541 milliseconds
+Speedup: 8.32169
+Running with 32 processes, iteration 4
+Element not found
+Time: 0.00016781 milliseconds
+Speedup: 16.0271
+Running with 32 processes, iteration 5
+Element not found
+Time: 0.0105121 milliseconds
+Speedup: 0.255718
+Running with 32 processes, iteration 6
+Element not found
+Time: 0.00025869 milliseconds
+Speedup: 10.3722
+Running with 32 processes, iteration 7
+Element found at index: 881685
+Time: 0.000259121 milliseconds
+Speedup: 9.16249
+Running with 32 processes, iteration 8
+Element not found
+Time: 0.00015717 milliseconds
+Speedup: 17.0967
+Running with 32 processes, iteration 9
+Element not found
+Time: 0.0002444 milliseconds
+Speedup: 10.9739
+Running with 32 processes, iteration 10
+Element not found
+Time: 0.000219531 milliseconds
+Speedup: 12.2198
+Running with 32 processes, iteration 11
+Element not found
+Time: 0.011067 milliseconds
+Speedup: 0.242379
+Running with 32 processes, iteration 12
+Element not found
+Time: 0.000259721 milliseconds
+Speedup: 10.3369
+Running with 32 processes, iteration 13
+Element found at index: 153666
+Time: 0.00019096 milliseconds
+Speedup: 0.329493
+Running with 32 processes, iteration 14
+Element found at index: 806830
+Time: 0.000201621 milliseconds
+Speedup: 10.7498
+Running with 32 processes, iteration 15
+Element not found
+Time: 0.000212171 milliseconds
+Speedup: 12.7117
+Running with 32 processes, iteration 16
+Element not found
+Time: 0.00023001 milliseconds
+Speedup: 11.6691
+Running with 32 processes, iteration 17
+Element not found
+Time: 0.000331111 milliseconds
+Speedup: 8.47579
+Running with 32 processes, iteration 18
+Element found at index: 946674
+Time: 0.000218681 milliseconds
+Speedup: 11.5951
+Running with 32 processes, iteration 19
+Element not found
+Time: 0.00018858 milliseconds
+Speedup: 14.4749
+Running with 32 processes, iteration 20
+Element found at index: 791605
+Time: 0.000190731 milliseconds
+Speedup: 11.121
+Running with 64 processes, iteration 1
+Element not found
+Time: 0.00753722 milliseconds
+Speedup: 0.357213
+Running with 64 processes, iteration 2
+Element found at index: 676154
+Time: 0.00857746 milliseconds
+Speedup: 0.211336
+Running with 64 processes, iteration 3
+Element not found
+Time: 0.00433236 milliseconds
+Speedup: 0.622512
+Running with 64 processes, iteration 4
+Element found at index: 926487
+Time: 0.0076165 milliseconds
+Speedup: 0.328075
+Running with 64 processes, iteration 5
+Element not found
+Time: 0.00664165 milliseconds
+Speedup: 0.404088
+Running with 64 processes, iteration 6
+Element not found
+Time: 0.00821277 milliseconds
+Speedup: 0.327712
+Running with 64 processes, iteration 7
+Element not found
+Time: 0.00834052 milliseconds
+Speedup: 0.322332
+Running with 64 processes, iteration 8
+Element not found
+Time: 0.00849955 milliseconds
+Speedup: 0.316356
+Running with 64 processes, iteration 9
+Element not found
+Time: 0.00584551 milliseconds
+Speedup: 0.460041
+Running with 64 processes, iteration 10
+Element not found
+Time: 0.00534849 milliseconds
+Speedup: 0.500968
+Running with 64 processes, iteration 11
+Element found at index: 35401
+Time: 0.00845901 milliseconds
+Speedup: 0.0111786
+Running with 64 processes, iteration 12
+Element found at index: 941539
+Time: 0.00576769 milliseconds
+Speedup: 0.439754
+Running with 64 processes, iteration 13
+Element not found
+Time: 0.00636113 milliseconds
+Speedup: 0.422009
+Running with 64 processes, iteration 14
+Element not found
+Time: 0.00863198 milliseconds
+Speedup: 0.311602
+Running with 64 processes, iteration 15
+Element not found
+Time: 0.00899313 milliseconds
+Speedup: 0.300432
+Running with 64 processes, iteration 16
+Element found at index: 709657
+Time: 0.00844018 milliseconds
+Speedup: 0.226306
+Running with 64 processes, iteration 17
+Element not found
+Time: 0.00821916 milliseconds
+Speedup: 0.326976
+Running with 64 processes, iteration 18
+Element not found
+Time: 0.0131683 milliseconds
+Speedup: 0.204482
+Running with 64 processes, iteration 19
+Element not found
+Time: 0.00551073 milliseconds
+Speedup: 0.487147
+Running with 64 processes, iteration 20
+Element not found
+Time: 0.00844947 milliseconds
+Speedup: 0.319258

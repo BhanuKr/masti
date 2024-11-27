@@ -1,0 +1,19 @@
+make: Nothing to be done for 'all'.
+Size: 10000, Threads: 2, Time: 9.88442e-05 seconds, Speedup: 0.962244
+Size: 10000, Threads: 4, Time: 7.07502e-05 seconds, Speedup: 1.34434
+Size: 10000, Threads: 8, Time: 5.38942e-05 seconds, Speedup: 1.76479
+Size: 10000, Threads: 16, Time: 0.00017031 seconds, Speedup: 0.558464
+Size: 10000, Threads: 32, Time: 0.0159558 seconds, Speedup: 0.00596098
+Size: 10000, Threads: 64, Time: 0.00161308 seconds, Speedup: 0.0589633
+Size: 20000, Threads: 2, Time: 0.000138672 seconds, Speedup: 1.34993
+Size: 20000, Threads: 4, Time: 0.000265451 seconds, Speedup: 0.70521
+Size: 20000, Threads: 8, Time: 5.7144e-05 seconds, Speedup: 3.27591
+Size: 20000, Threads: 16, Time: 8.86702e-05 seconds, Speedup: 2.11118
+Size: 20000, Threads: 32, Time: 0.0117434 seconds, Speedup: 0.0159408
+Size: 20000, Threads: 64, Time: 0.0016535 seconds, Speedup: 0.113213
+Size: 30000, Threads: 2, Time: 0.000185906 seconds, Speedup: 1.51202
+Size: 30000, Threads: 4, Time: 0.00023442 seconds, Speedup: 1.1991
+Size: 30000, Threads: 8, Time: 7.13022e-05 seconds, Speedup: 3.9423
+Size: 30000, Threads: 16, Time: 9.12262e-05 seconds, Speedup: 3.08129
+Size: 30000, Threads: 32, Time: 0.0214271 seconds, Speedup: 0.0131187
+Size: 30000, Threads: 64, Time: 0.000555485 seconds, Speedup: 0.506034
