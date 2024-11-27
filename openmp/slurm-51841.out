@@ -1,0 +1,25 @@
+g++ -fopenmp prefix_sum.cpp -o prefix_sum
+Size: 10000, Threads: 2, Time: 6.58296e-05 seconds, Speedup: 1.42993
+Size: 10000, Threads: 4, Time: 4.77118e-05 seconds, Speedup: 1.97292
+Size: 10000, Threads: 8, Time: 6.39176e-05 seconds, Speedup: 1.4727
+Size: 10000, Threads: 16, Time: 9.08736e-05 seconds, Speedup: 1.03585
+Size: 10000, Threads: 32, Time: 0.00901116 seconds, Speedup: 0.0104461
+Size: 10000, Threads: 64, Time: 0.00162172 seconds, Speedup: 0.0580444
+Size: 20000, Threads: 2, Time: 0.000152481 seconds, Speedup: 1.21727
+Size: 20000, Threads: 4, Time: 7.50816e-05 seconds, Speedup: 2.47212
+Size: 20000, Threads: 8, Time: 0.000225777 seconds, Speedup: 0.822099
+Size: 20000, Threads: 16, Time: 8.03736e-05 seconds, Speedup: 2.30935
+Size: 20000, Threads: 32, Time: 0.00934705 seconds, Speedup: 0.0198577
+Size: 20000, Threads: 64, Time: 0.00164058 seconds, Speedup: 0.113138
+Size: 30000, Threads: 2, Time: 0.000204779 seconds, Speedup: 1.36635
+Size: 30000, Threads: 4, Time: 0.000239945 seconds, Speedup: 1.1661
+Size: 30000, Threads: 8, Time: 7.00336e-05 seconds, Speedup: 3.99523
+Size: 30000, Threads: 16, Time: 9.14916e-05 seconds, Speedup: 3.05821
+Size: 30000, Threads: 32, Time: 0.000792338 seconds, Speedup: 0.353133
+Size: 30000, Threads: 64, Time: 0.00166681 seconds, Speedup: 0.167866
+Size: 1000000, Threads: 2, Time: 0.00474669 seconds, Speedup: 1.98639
+Size: 1000000, Threads: 4, Time: 0.00247053 seconds, Speedup: 3.8165
+Size: 1000000, Threads: 8, Time: 0.00122268 seconds, Speedup: 7.71154
+Size: 1000000, Threads: 16, Time: 0.000669381 seconds, Speedup: 14.0858
+Size: 1000000, Threads: 32, Time: 0.000470068 seconds, Speedup: 20.0583
+Size: 1000000, Threads: 64, Time: 0.00257109 seconds, Speedup: 3.66723

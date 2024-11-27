@@ -1,0 +1,30 @@
+g++ -fopenmp prefix_sum.cpp -o prefix_sum
+prefix_sum.cpp:1:10: fatal error: vectorio.h: No such file or directory
+ #include "vectorio.h" // Include the header for file operations
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Makefile:4: prefix_sum] Error 1
+Size: 10000, Threads: 2, Time: 9.88662e-05 seconds, Speedup: 0.978395
+Size: 10000, Threads: 4, Time: 6.59022e-05 seconds, Speedup: 1.46778
+Size: 10000, Threads: 8, Time: 0.000100362 seconds, Speedup: 0.963811
+Size: 10000, Threads: 16, Time: 0.00012209 seconds, Speedup: 0.792285
+Size: 10000, Threads: 32, Time: 0.0154028 seconds, Speedup: 0.00628005
+Size: 10000, Threads: 64, Time: 0.00172193 seconds, Speedup: 0.0561755
+Size: 20000, Threads: 2, Time: 0.000160842 seconds, Speedup: 1.15691
+Size: 20000, Threads: 4, Time: 0.00116816 seconds, Speedup: 0.159294
+Size: 20000, Threads: 8, Time: 5.9756e-05 seconds, Speedup: 3.114
+Size: 20000, Threads: 16, Time: 7.88362e-05 seconds, Speedup: 2.36034
+Size: 20000, Threads: 32, Time: 0.00931884 seconds, Speedup: 0.0199682
+Size: 20000, Threads: 64, Time: 0.00169917 seconds, Speedup: 0.109512
+Size: 30000, Threads: 2, Time: 0.000193938 seconds, Speedup: 1.43381
+Size: 30000, Threads: 4, Time: 0.000265703 seconds, Speedup: 1.04655
+Size: 30000, Threads: 8, Time: 7.51022e-05 seconds, Speedup: 3.70256
+Size: 30000, Threads: 16, Time: 9.02602e-05 seconds, Speedup: 3.08076
+Size: 30000, Threads: 32, Time: 0.000136064 seconds, Speedup: 2.04367
+Size: 30000, Threads: 64, Time: 0.00164436 seconds, Speedup: 0.169105
+Size: 1000000, Threads: 2, Time: 0.00474675 seconds, Speedup: 1.96535
+Size: 1000000, Threads: 4, Time: 0.00256718 seconds, Speedup: 3.63394
+Size: 1000000, Threads: 8, Time: 0.00128205 seconds, Speedup: 7.27661
+Size: 1000000, Threads: 16, Time: 0.000668637 seconds, Speedup: 13.9523
+Size: 1000000, Threads: 32, Time: 0.000444311 seconds, Speedup: 20.9966
+Size: 1000000, Threads: 64, Time: 0.00227858 seconds, Speedup: 4.09421

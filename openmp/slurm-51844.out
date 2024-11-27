@@ -1,0 +1,25 @@
+make: Nothing to be done for 'all'.
+Size: 10000, Threads: 2, Time: 9.9252e-05 seconds, Speedup: 0.943677
+Size: 10000, Threads: 4, Time: 6.77078e-05 seconds, Speedup: 1.38332
+Size: 10000, Threads: 8, Time: 6.3114e-05 seconds, Speedup: 1.48401
+Size: 10000, Threads: 16, Time: 0.000123286 seconds, Speedup: 0.759713
+Size: 10000, Threads: 32, Time: 0.00729767 seconds, Speedup: 0.0128345
+Size: 10000, Threads: 64, Time: 0.00167237 seconds, Speedup: 0.0560054
+Size: 20000, Threads: 2, Time: 0.000131304 seconds, Speedup: 1.41936
+Size: 20000, Threads: 4, Time: 0.000300906 seconds, Speedup: 0.619356
+Size: 20000, Threads: 8, Time: 5.8678e-05 seconds, Speedup: 3.17611
+Size: 20000, Threads: 16, Time: 8.205e-05 seconds, Speedup: 2.27139
+Size: 20000, Threads: 32, Time: 0.0120526 seconds, Speedup: 0.0154629
+Size: 20000, Threads: 64, Time: 0.00162772 seconds, Speedup: 0.114496
+Size: 30000, Threads: 2, Time: 0.000176266 seconds, Speedup: 1.58886
+Size: 30000, Threads: 4, Time: 0.000267374 seconds, Speedup: 1.04745
+Size: 30000, Threads: 8, Time: 7.223e-05 seconds, Speedup: 3.87736
+Size: 30000, Threads: 16, Time: 9.1104e-05 seconds, Speedup: 3.07409
+Size: 30000, Threads: 32, Time: 0.000138752 seconds, Speedup: 2.01844
+Size: 30000, Threads: 64, Time: 0.00171179 seconds, Speedup: 0.163608
+Size: 1000000, Threads: 2, Time: 0.0046955 seconds, Speedup: 2.00047
+Size: 1000000, Threads: 4, Time: 0.00239174 seconds, Speedup: 3.92736
+Size: 1000000, Threads: 8, Time: 0.00129742 seconds, Speedup: 7.23993
+Size: 1000000, Threads: 16, Time: 0.000692367 seconds, Speedup: 13.5668
+Size: 1000000, Threads: 32, Time: 0.00299528 seconds, Speedup: 3.13601
+Size: 1000000, Threads: 64, Time: 0.00250422 seconds, Speedup: 3.75096

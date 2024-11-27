@@ -1,0 +1,2 @@
+g++ -fopenmp prefix_sum.cpp -o prefix_sum
+Input File missing

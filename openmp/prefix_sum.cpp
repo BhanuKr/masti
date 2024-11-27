@@ -1,9 +1,11 @@
+#include "vectorio.h" // Include the header for file operations
 #include <omp.h>
 #include <iostream>
 #include <vector>
 #include <chrono>
 #include <numeric>
 
+// Prefix sum implementation
 void prefix_sum(const std::vector<int>& A, std::vector<int>& B, int num_threads) {
     int n = A.size();
     B[0] = A[0];
@@ -33,40 +35,44 @@ void prefix_sum(const std::vector<int>& A, std::vector<int>& B, int num_threads)
 }
 
 int main() {
-    std::vector<int> sizes = {10000, 20000, 30000, 1000000};
-    std::vector<int> threads = {2, 4, 8, 16, 32, 64};
+    // File paths for input and output
+    std::string input_file = "input_10k.bin";
+    std::string output_file = "output_10k.bin";
 
-    for (int size : sizes) {
-        std::vector<int> A(size);
-        std::iota(A.begin(), A.end(), 1);
-        std::vector<int> B(size);
+    // Read input and expected output vectors from files
+    std::vector<int> A = read_from_file(input_file);
+    std::vector<int> expected_output = read_from_file(output_file);
 
-        // Measure sequential execution time
-        double sequential_time = 0.0;
-        for (int run = 0; run < 5; ++run) {
-            auto start = std::chrono::high_resolution_clock::now();
-            prefix_sum(A, B, 1);
-            auto end = std::chrono::high_resolution_clock::now();
-            std::chrono::duration<double> duration = end - start;
-            sequential_time += duration.count();
-        }
-        sequential_time /= 5.0;
+    if (A.empty() || expected_output.empty()) {
+        std::cerr << "Error: Input or output file is empty or not properly formatted." << std::endl;
+        return 1;
+    }
 
-        for (int num_threads : threads) {
-            double total_time = 0.0;
+    if (A.size() != expected_output.size()) {
+        std::cerr << "Error: Input and output sizes do not match." << std::endl;
+        return 1;
+    }
 
-            for (int run = 0; run < 5; ++run) {
-                auto start = std::chrono::high_resolution_clock::now();
-                prefix_sum(A, B, num_threads);
-                auto end = std::chrono::high_resolution_clock::now();
-                std::chrono::duration<double> duration = end - start;
-                total_time += duration.count();
-            }
+    // Prepare output vector
+    std::vector<int> B(A.size());
 
-            double average_time = total_time / 5.0;
-            double speedup = sequential_time / average_time;
-            std::cout << "Size: " << size << ", Threads: " << num_threads << ", Time: " << average_time << " seconds, Speedup: " << speedup << std::endl;
-        }
+    // Perform prefix sum
+    int num_threads = 32; // Example: Use 32 threads
+    auto start = std::chrono::high_resolution_clock::now();
+    prefix_sum(A, B, num_threads);
+    auto end = std::chrono::high_resolution_clock::now();
+
+    // Measure execution time
+    std::chrono::duration<double> duration = end - start;
+    std::cout << "Execution Time: " << duration.count() << " seconds" << std::endl;
+
+    // Verify results
+    bool is_correct = (B == expected_output);
+
+    if (is_correct) {
+        std::cout << "Verification Successful: Computed output matches expected output." << std::endl;
+    } else {
+        std::cout << "Verification Failed: Computed output does not match expected output." << std::endl;
     }
 
     return 0;
