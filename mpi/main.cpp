@@ -95,7 +95,7 @@ int main(int argc, char** argv) {
             std::cout << "Element not found" << std::endl;
         }
         double time_taken = get_time_ms(end - start);
-        std::cout << "Time: " << time_taken << " milliseconds" << std::endl;
+        std::cout << "Time: " << time_taken << " seconds" << std::endl;
         double speedup = serial_time / time_taken;
         std::cout << "Speedup: " << speedup << std::endl;
     }

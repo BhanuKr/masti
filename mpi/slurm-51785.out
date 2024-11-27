@@ -1,0 +1,500 @@
+Running with 1 processes, iteration 1
+Element found at index: 435643
+Average Serial Time: 0.00232656 milliseconds
+Average Parallel Time: 0.00229449 milliseconds
+Average Speedup: 1.01398
+Running with 1 processes, iteration 2
+Element found at index: 131213
+Average Serial Time: 0.00247227 milliseconds
+Average Parallel Time: 0.00244011 milliseconds
+Average Speedup: 1.01318
+Running with 1 processes, iteration 3
+Element found at index: 131213
+Average Serial Time: 0.0024714 milliseconds
+Average Parallel Time: 0.00244023 milliseconds
+Average Speedup: 1.01277
+Running with 1 processes, iteration 4
+Element found at index: 354383
+Average Serial Time: 0.00216171 milliseconds
+Average Parallel Time: 0.0021319 milliseconds
+Average Speedup: 1.01398
+Running with 1 processes, iteration 5
+Element found at index: 341346
+Average Serial Time: 0.00213723 milliseconds
+Average Parallel Time: 0.00210717 milliseconds
+Average Speedup: 1.01427
+Running with 1 processes, iteration 6
+Element found at index: 322274
+Average Serial Time: 0.00236868 milliseconds
+Average Parallel Time: 0.00234014 milliseconds
+Average Speedup: 1.01219
+Running with 1 processes, iteration 7
+Element found at index: 25634
+Average Serial Time: 0.00218657 milliseconds
+Average Parallel Time: 0.00216521 milliseconds
+Average Speedup: 1.00987
+Running with 1 processes, iteration 8
+Element found at index: 519821
+Average Serial Time: 0.00220637 milliseconds
+Average Parallel Time: 0.00218299 milliseconds
+Average Speedup: 1.01071
+Running with 1 processes, iteration 9
+Element found at index: 169947
+Average Serial Time: 0.00226675 milliseconds
+Average Parallel Time: 0.00224181 milliseconds
+Average Speedup: 1.01113
+Running with 1 processes, iteration 10
+Element not found in any iteration
+Average Serial Time: 0.00258016 milliseconds
+Average Parallel Time: 0.00255036 milliseconds
+Average Speedup: 1.01169
+Running with 1 processes, iteration 11
+Element found at index: 639386
+Average Serial Time: 0.00253593 milliseconds
+Average Parallel Time: 0.00250046 milliseconds
+Average Speedup: 1.01419
+Running with 1 processes, iteration 12
+Element found at index: 826845
+Average Serial Time: 0.00241798 milliseconds
+Average Parallel Time: 0.00238903 milliseconds
+Average Speedup: 1.01212
+Running with 1 processes, iteration 13
+Element found at index: 657945
+Average Serial Time: 0.0024327 milliseconds
+Average Parallel Time: 0.00240585 milliseconds
+Average Speedup: 1.01116
+Running with 1 processes, iteration 14
+Element found at index: 657945
+Average Serial Time: 0.002436 milliseconds
+Average Parallel Time: 0.00240332 milliseconds
+Average Speedup: 1.0136
+Running with 1 processes, iteration 15
+Element found at index: 393287
+Average Serial Time: 0.00228979 milliseconds
+Average Parallel Time: 0.00226097 milliseconds
+Average Speedup: 1.01275
+Running with 1 processes, iteration 16
+Element found at index: 183306
+Average Serial Time: 0.00247701 milliseconds
+Average Parallel Time: 0.00244384 milliseconds
+Average Speedup: 1.01357
+Running with 1 processes, iteration 17
+Element found at index: 690028
+Average Serial Time: 0.00225403 milliseconds
+Average Parallel Time: 0.0022278 milliseconds
+Average Speedup: 1.01177
+Running with 1 processes, iteration 18
+Element found at index: 199559
+Average Serial Time: 0.00247698 milliseconds
+Average Parallel Time: 0.00244975 milliseconds
+Average Speedup: 1.01111
+Running with 1 processes, iteration 19
+Element found at index: 272761
+Average Serial Time: 0.00239983 milliseconds
+Average Parallel Time: 0.00236573 milliseconds
+Average Speedup: 1.01441
+Running with 1 processes, iteration 20
+Element found at index: 925751
+Average Serial Time: 0.00250972 milliseconds
+Average Parallel Time: 0.00247986 milliseconds
+Average Speedup: 1.01204
+Running with 8 processes, iteration 1
+Element found at index: 215773
+Average Serial Time: 0.00228057 milliseconds
+Average Parallel Time: 0.000343605 milliseconds
+Average Speedup: 6.6372
+Running with 8 processes, iteration 2
+Element found at index: 598982
+Average Serial Time: 0.00225108 milliseconds
+Average Parallel Time: 0.000339144 milliseconds
+Average Speedup: 6.63755
+Running with 8 processes, iteration 3
+Element found at index: 698227
+Average Serial Time: 0.00253218 milliseconds
+Average Parallel Time: 0.000329463 milliseconds
+Average Speedup: 7.68579
+Running with 8 processes, iteration 4
+Element found at index: 918724
+Average Serial Time: 0.00242875 milliseconds
+Average Parallel Time: 0.000337861 milliseconds
+Average Speedup: 7.18862
+Running with 8 processes, iteration 5
+Element found at index: 2709
+Average Serial Time: 0.00238443 milliseconds
+Average Parallel Time: 0.000339273 milliseconds
+Average Speedup: 7.02807
+Running with 8 processes, iteration 6
+Element found at index: 911301
+Average Serial Time: 0.00260942 milliseconds
+Average Parallel Time: 0.000332299 milliseconds
+Average Speedup: 7.85265
+Running with 8 processes, iteration 7
+Element found at index: 382028
+Average Serial Time: 0.00227386 milliseconds
+Average Parallel Time: 0.000328059 milliseconds
+Average Speedup: 6.93126
+Running with 8 processes, iteration 8
+Element found at index: 181261
+Average Serial Time: 0.00249505 milliseconds
+Average Parallel Time: 0.000332706 milliseconds
+Average Speedup: 7.49926
+Running with 8 processes, iteration 9
+Element found at index: 135420
+Average Serial Time: 0.00250754 milliseconds
+Average Parallel Time: 0.000329563 milliseconds
+Average Speedup: 7.60868
+Running with 8 processes, iteration 10
+Element found at index: 506613
+Average Serial Time: 0.00236104 milliseconds
+Average Parallel Time: 0.000325453 milliseconds
+Average Speedup: 7.25463
+Running with 8 processes, iteration 11
+Element found at index: 79277
+Average Serial Time: 0.00229857 milliseconds
+Average Parallel Time: 0.000331882 milliseconds
+Average Speedup: 6.92586
+Running with 8 processes, iteration 12
+Element found at index: 711188
+Average Serial Time: 0.00245641 milliseconds
+Average Parallel Time: 0.000331675 milliseconds
+Average Speedup: 7.40606
+Running with 8 processes, iteration 13
+Element found at index: 51095
+Average Serial Time: 0.00243846 milliseconds
+Average Parallel Time: 0.000331994 milliseconds
+Average Speedup: 7.34489
+Running with 8 processes, iteration 14
+Element found at index: 579527
+Average Serial Time: 0.00220168 milliseconds
+Average Parallel Time: 0.000335489 milliseconds
+Average Speedup: 6.56259
+Running with 8 processes, iteration 15
+Element found at index: 742989
+Average Serial Time: 0.00216737 milliseconds
+Average Parallel Time: 0.000337824 milliseconds
+Average Speedup: 6.41569
+Running with 8 processes, iteration 16
+Element found at index: 917903
+Average Serial Time: 0.00253024 milliseconds
+Average Parallel Time: 0.000328202 milliseconds
+Average Speedup: 7.70938
+Running with 8 processes, iteration 17
+Element found at index: 951840
+Average Serial Time: 0.0022404 milliseconds
+Average Parallel Time: 0.000332706 milliseconds
+Average Speedup: 6.73386
+Running with 8 processes, iteration 18
+Element found at index: 2157
+Average Serial Time: 0.00221709 milliseconds
+Average Parallel Time: 0.000333572 milliseconds
+Average Speedup: 6.64651
+Running with 8 processes, iteration 19
+Element found at index: 378563
+Average Serial Time: 0.00245617 milliseconds
+Average Parallel Time: 0.000329263 milliseconds
+Average Speedup: 7.4596
+Running with 8 processes, iteration 20
+Element found at index: 341958
+Average Serial Time: 0.00246289 milliseconds
+Average Parallel Time: 0.000335742 milliseconds
+Average Speedup: 7.33567
+Running with 16 processes, iteration 1
+Element found at index: 124200
+Average Serial Time: 0.00222028 milliseconds
+Average Parallel Time: 0.000170893 milliseconds
+Average Speedup: 12.9922
+Running with 16 processes, iteration 2
+Element found at index: 416015
+Average Serial Time: 0.00243041 milliseconds
+Average Parallel Time: 0.000171487 milliseconds
+Average Speedup: 14.1726
+Running with 16 processes, iteration 3
+Element found at index: 362107
+Average Serial Time: 0.00244852 milliseconds
+Average Parallel Time: 0.000170193 milliseconds
+Average Speedup: 14.3867
+Running with 16 processes, iteration 4
+Element found at index: 618579
+Average Serial Time: 0.00220761 milliseconds
+Average Parallel Time: 0.000170217 milliseconds
+Average Speedup: 12.9694
+Running with 16 processes, iteration 5
+Element found at index: 17519
+Average Serial Time: 0.00236673 milliseconds
+Average Parallel Time: 0.000173502 milliseconds
+Average Speedup: 13.6409
+Running with 16 processes, iteration 6
+Element found at index: 996826
+Average Serial Time: 0.0024468 milliseconds
+Average Parallel Time: 0.000172034 milliseconds
+Average Speedup: 14.2228
+Running with 16 processes, iteration 7
+Element found at index: 983943
+Average Serial Time: 0.00252706 milliseconds
+Average Parallel Time: 0.000170747 milliseconds
+Average Speedup: 14.8
+Running with 16 processes, iteration 8
+Element found at index: 836825
+Average Serial Time: 0.00244951 milliseconds
+Average Parallel Time: 0.000183193 milliseconds
+Average Speedup: 13.3712
+Running with 16 processes, iteration 9
+Element found at index: 577502
+Average Serial Time: 0.00212565 milliseconds
+Average Parallel Time: 0.00017025 milliseconds
+Average Speedup: 12.4855
+Running with 16 processes, iteration 10
+Element found at index: 383365
+Average Serial Time: 0.00241589 milliseconds
+Average Parallel Time: 0.000171591 milliseconds
+Average Speedup: 14.0793
+Running with 16 processes, iteration 11
+Element found at index: 930155
+Average Serial Time: 0.00236431 milliseconds
+Average Parallel Time: 0.000210136 milliseconds
+Average Speedup: 11.2514
+Running with 16 processes, iteration 12
+Element found at index: 330442
+Average Serial Time: 0.002081 milliseconds
+Average Parallel Time: 0.000172727 milliseconds
+Average Speedup: 12.0479
+Running with 16 processes, iteration 13
+Element found at index: 834961
+Average Serial Time: 0.00257758 milliseconds
+Average Parallel Time: 0.00017115 milliseconds
+Average Speedup: 15.0604
+Running with 16 processes, iteration 14
+Element found at index: 849898
+Average Serial Time: 0.00256877 milliseconds
+Average Parallel Time: 0.000174645 milliseconds
+Average Speedup: 14.7086
+Running with 16 processes, iteration 15
+Element found at index: 895783
+Average Serial Time: 0.00257022 milliseconds
+Average Parallel Time: 0.000170305 milliseconds
+Average Speedup: 15.0919
+Running with 16 processes, iteration 16
+Element found at index: 573760
+Average Serial Time: 0.00225109 milliseconds
+Average Parallel Time: 0.000170913 milliseconds
+Average Speedup: 13.171
+Running with 16 processes, iteration 17
+Element found at index: 247760
+Average Serial Time: 0.00235316 milliseconds
+Average Parallel Time: 0.000171749 milliseconds
+Average Speedup: 13.7012
+Running with 16 processes, iteration 18
+Element found at index: 887706
+Average Serial Time: 0.00215293 milliseconds
+Average Parallel Time: 0.000171904 milliseconds
+Average Speedup: 12.5241
+Running with 16 processes, iteration 19
+Element found at index: 225225
+Average Serial Time: 0.00250145 milliseconds
+Average Parallel Time: 0.000191832 milliseconds
+Average Speedup: 13.0398
+Running with 16 processes, iteration 20
+Element found at index: 840126
+Average Serial Time: 0.00245624 milliseconds
+Average Parallel Time: 0.000169868 milliseconds
+Average Speedup: 14.4598
+Running with 32 processes, iteration 1
+Element found at index: 897001
+Average Serial Time: 0.00243933 milliseconds
+Average Parallel Time: 9.88901e-05 milliseconds
+Average Speedup: 24.6671
+Running with 32 processes, iteration 2
+Element found at index: 726986
+Average Serial Time: 0.00249758 milliseconds
+Average Parallel Time: 0.000135878 milliseconds
+Average Speedup: 18.381
+Running with 32 processes, iteration 3
+Element found at index: 409235
+Average Serial Time: 0.00220073 milliseconds
+Average Parallel Time: 9.3936e-05 milliseconds
+Average Speedup: 23.428
+Running with 32 processes, iteration 4
+Element found at index: 978070
+Average Serial Time: 0.00208892 milliseconds
+Average Parallel Time: 9.9373e-05 milliseconds
+Average Speedup: 21.021
+Running with 32 processes, iteration 5
+Element found at index: 80939
+Average Serial Time: 0.00238383 milliseconds
+Average Parallel Time: 9.79496e-05 milliseconds
+Average Speedup: 24.3374
+Running with 32 processes, iteration 6
+Element found at index: 122023
+Average Serial Time: 0.00239052 milliseconds
+Average Parallel Time: 9.72606e-05 milliseconds
+Average Speedup: 24.5785
+Running with 32 processes, iteration 7
+Element found at index: 827798
+Average Serial Time: 0.00251599 milliseconds
+Average Parallel Time: 9.72875e-05 milliseconds
+Average Speedup: 25.8614
+Running with 32 processes, iteration 8
+Element found at index: 848754
+Average Serial Time: 0.00245544 milliseconds
+Average Parallel Time: 9.82867e-05 milliseconds
+Average Speedup: 24.9824
+Running with 32 processes, iteration 9
+Element found at index: 416857
+Average Serial Time: 0.00236598 milliseconds
+Average Parallel Time: 9.87042e-05 milliseconds
+Average Speedup: 23.9704
+Running with 32 processes, iteration 10
+Element found at index: 868454
+Average Serial Time: 0.0024477 milliseconds
+Average Parallel Time: 0.000147436 milliseconds
+Average Speedup: 16.6017
+Running with 32 processes, iteration 11
+Element found at index: 45515
+Average Serial Time: 0.00224823 milliseconds
+Average Parallel Time: 0.0001992 milliseconds
+Average Speedup: 11.2863
+Running with 32 processes, iteration 12
+Element found at index: 569799
+Average Serial Time: 0.00237013 milliseconds
+Average Parallel Time: 9.5285e-05 milliseconds
+Average Speedup: 24.8741
+Running with 32 processes, iteration 13
+Element found at index: 331840
+Average Serial Time: 0.00247452 milliseconds
+Average Parallel Time: 9.72965e-05 milliseconds
+Average Speedup: 25.4328
+Running with 32 processes, iteration 14
+Element found at index: 268891
+Average Serial Time: 0.00240419 milliseconds
+Average Parallel Time: 0.000147017 milliseconds
+Average Speedup: 16.3532
+Running with 32 processes, iteration 15
+Element found at index: 470512
+Average Serial Time: 0.00243458 milliseconds
+Average Parallel Time: 0.000152607 milliseconds
+Average Speedup: 15.9532
+Running with 32 processes, iteration 16
+Element found at index: 112864
+Average Serial Time: 0.00236261 milliseconds
+Average Parallel Time: 0.00010011 milliseconds
+Average Speedup: 23.6001
+Running with 32 processes, iteration 17
+Element found at index: 445717
+Average Serial Time: 0.00248406 milliseconds
+Average Parallel Time: 0.000159791 milliseconds
+Average Speedup: 15.5457
+Running with 32 processes, iteration 18
+Element found at index: 712142
+Average Serial Time: 0.00244555 milliseconds
+Average Parallel Time: 9.5942e-05 milliseconds
+Average Speedup: 25.4899
+Running with 32 processes, iteration 19
+Element found at index: 438961
+Average Serial Time: 0.00248299 milliseconds
+Average Parallel Time: 0.000616298 milliseconds
+Average Speedup: 4.02887
+Running with 32 processes, iteration 20
+Element found at index: 596322
+Average Serial Time: 0.00253977 milliseconds
+Average Parallel Time: 9.61425e-05 milliseconds
+Average Speedup: 26.4167
+Running with 64 processes, iteration 1
+Element found at index: 311024
+Average Serial Time: 0.00227685 milliseconds
+Average Parallel Time: 0.000438334 milliseconds
+Average Speedup: 5.19433
+Running with 64 processes, iteration 2
+Element found at index: 509490
+Average Serial Time: 0.00237124 milliseconds
+Average Parallel Time: 0.000411353 milliseconds
+Average Speedup: 5.7645
+Running with 64 processes, iteration 3
+Element found at index: 717230
+Average Serial Time: 0.0024451 milliseconds
+Average Parallel Time: 0.000343497 milliseconds
+Average Speedup: 7.11827
+Running with 64 processes, iteration 4
+Element found at index: 89761
+Average Serial Time: 0.00237105 milliseconds
+Average Parallel Time: 0.000488217 milliseconds
+Average Speedup: 4.85656
+Running with 64 processes, iteration 5
+Element found at index: 988402
+Average Serial Time: 0.00227813 milliseconds
+Average Parallel Time: 0.00035558 milliseconds
+Average Speedup: 6.4068
+Running with 64 processes, iteration 6
+Element found at index: 763817
+Average Serial Time: 0.00232569 milliseconds
+Average Parallel Time: 0.000460274 milliseconds
+Average Speedup: 5.05284
+Running with 64 processes, iteration 7
+Element found at index: 180019
+Average Serial Time: 0.00223564 milliseconds
+Average Parallel Time: 0.000477253 milliseconds
+Average Speedup: 4.6844
+Running with 64 processes, iteration 8
+Element found at index: 400485
+Average Serial Time: 0.00235574 milliseconds
+Average Parallel Time: 0.00022321 milliseconds
+Average Speedup: 10.5539
+Running with 64 processes, iteration 9
+Element found at index: 465314
+Average Serial Time: 0.00251687 milliseconds
+Average Parallel Time: 0.000618695 milliseconds
+Average Speedup: 4.06803
+Running with 64 processes, iteration 10
+Element found at index: 961154
+Average Serial Time: 0.00231927 milliseconds
+Average Parallel Time: 0.000390636 milliseconds
+Average Speedup: 5.93717
+Running with 64 processes, iteration 11
+Element found at index: 568235
+Average Serial Time: 0.00239299 milliseconds
+Average Parallel Time: 0.000374215 milliseconds
+Average Speedup: 6.39469
+Running with 64 processes, iteration 12
+Element found at index: 417040
+Average Serial Time: 0.00250955 milliseconds
+Average Parallel Time: 0.000477289 milliseconds
+Average Speedup: 5.25794
+Running with 64 processes, iteration 13
+Element found at index: 932602
+Average Serial Time: 0.00233114 milliseconds
+Average Parallel Time: 0.000427487 milliseconds
+Average Speedup: 5.45312
+Running with 64 processes, iteration 14
+Element found at index: 442796
+Average Serial Time: 0.00221867 milliseconds
+Average Parallel Time: 0.000431252 milliseconds
+Average Speedup: 5.14472
+Running with 64 processes, iteration 15
+Element found at index: 576600
+Average Serial Time: 0.00242327 milliseconds
+Average Parallel Time: 0.000293233 milliseconds
+Average Speedup: 8.26398
+Running with 64 processes, iteration 16
+Element found at index: 783150
+Average Serial Time: 0.00235193 milliseconds
+Average Parallel Time: 0.000251425 milliseconds
+Average Speedup: 9.35439
+Running with 64 processes, iteration 17
+Element found at index: 915851
+Average Serial Time: 0.00251967 milliseconds
+Average Parallel Time: 0.00042228 milliseconds
+Average Speedup: 5.96684
+Running with 64 processes, iteration 18
+Element found at index: 235533
+Average Serial Time: 0.00230291 milliseconds
+Average Parallel Time: 0.000363362 milliseconds
+Average Speedup: 6.33778
+Running with 64 processes, iteration 19
+Element found at index: 917837
+Average Serial Time: 0.00214139 milliseconds
+Average Parallel Time: 0.000480269 milliseconds
+Average Speedup: 4.45874
+Running with 64 processes, iteration 20
+Element found at index: 691122
+Average Serial Time: 0.00226029 milliseconds
+Average Parallel Time: 0.000453718 milliseconds
+Average Speedup: 4.9817
