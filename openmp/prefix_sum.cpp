@@ -4,6 +4,7 @@
 #include <vector>
 #include <chrono>
 #include <numeric>
+#include <fstream>
 
 // Prefix sum implementation
 void prefix_sum(const std::vector<int>& A, std::vector<int>& B, int num_threads) {
@@ -34,6 +35,8 @@ void prefix_sum(const std::vector<int>& A, std::vector<int>& B, int num_threads)
     }
 }
 
+
+
 int main() {
     // File paths for input and output
     std::string input_file = "input_10k.bin";
@@ -43,13 +46,8 @@ int main() {
     std::vector<int> A = read_from_file(input_file);
     std::vector<int> expected_output = read_from_file(output_file);
 
-    if (A.empty() || expected_output.empty()) {
-        std::cerr << "Error: Input or output file is empty or not properly formatted." << std::endl;
-        return 1;
-    }
-
-    if (A.size() != expected_output.size()) {
-        std::cerr << "Error: Input and output sizes do not match." << std::endl;
+    if (A.empty()) {
+        std::cerr << "Error: Input file is empty or not properly formatted." << std::endl;
         return 1;
     }
 
@@ -66,13 +64,33 @@ int main() {
     std::chrono::duration<double> duration = end - start;
     std::cout << "Execution Time: " << duration.count() << " seconds" << std::endl;
 
-    // Verify results
-    bool is_correct = (B == expected_output);
+    // Write the result to output file
+    write_to_file("prefix_sum_output.bin", B);
+    std::cout << "Output written to prefix_sum_output.bin" << std::endl;
 
-    if (is_correct) {
-        std::cout << "Verification Successful: Computed output matches expected output." << std::endl;
-    } else {
-        std::cout << "Verification Failed: Computed output does not match expected output." << std::endl;
+    // Optional: Verify against expected output if available
+    if (!expected_output.empty()) {
+        if (expected_output.size() != B.size()) {
+            std::cerr << "Error: Expected output size does not match result size." << std::endl;
+            return 1;
+        }
+
+        bool correct = true;
+        for (size_t i = 0; i < B.size(); ++i) {
+            if (B[i] != expected_output[i]) {
+                std::cerr << "Mismatch at index " << i 
+                          << ": Computed " << B[i] 
+                          << ", Expected " << expected_output[i] << std::endl;
+                correct = false;
+                break;
+            }
+        }
+
+        if (correct) {
+            std::cout << "Result matches expected output." << std::endl;
+        } else {
+            std::cerr << "Result does not match expected output." << std::endl;
+        }
     }
 
     return 0;

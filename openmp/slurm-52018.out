@@ -1,0 +1,5 @@
+g++ -fopenmp prefix_sum.cpp -o prefix_sum
+Execution Time: 0.00121959 seconds
+Output written to prefix_sum_output.bin
+Mismatch at index 312: Computed 14828, Expected 14895
+Result does not match expected output.

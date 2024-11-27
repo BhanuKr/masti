@@ -1,0 +1,11 @@
+g++ -fopenmp prefix_sum.cpp -o prefix_sum
+prefix_sum.cpp:39:6: error: redefinition of ‘void write_to_file(std::__cxx11::string, std::vector<int>&)’
+ void write_to_file(std::string path, std::vector<int> &vec) {
+      ^~~~~~~~~~~~~
+In file included from prefix_sum.cpp:1:
+vectorio.h:24:6: note: ‘void write_to_file(std::__cxx11::string, std::vector<int>&)’ previously defined here
+ void write_to_file(std::string path, std::vector<int> &vec) {
+      ^~~~~~~~~~~~~
+make: *** [Makefile:4: prefix_sum] Error 1
+Execution Time: 0.00106419 seconds
+Verification Failed: Computed output does not match expected output.

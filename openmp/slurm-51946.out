@@ -1,0 +1,18 @@
+g++ -fopenmp prefix_sum.cpp -o prefix_sum
+prefix_sum.cpp: In function ‘int main()’:
+prefix_sum.cpp:46:22: error: ‘expected_output’ was not declared in this scope
+     if (A.empty() || expected_output.empty()) {
+                      ^~~~~~~~~~~~~~~
+prefix_sum.cpp:51:21: error: ‘expected_output’ was not declared in this scope
+     if (A.size() != expected_output.size()) {
+                     ^~~~~~~~~~~~~~~
+prefix_sum.cpp:70:19: error: ‘output__10k’ was not declared in this scope
+     write_to_file(output__10k.bin, A)
+                   ^~~~~~~~~~~
+prefix_sum.cpp:70:19: note: suggested alternative: ‘output_file’
+     write_to_file(output__10k.bin, A)
+                   ^~~~~~~~~~~
+                   output_file
+make: *** [Makefile:4: prefix_sum] Error 1
+Execution Time: 0.0201033 seconds
+Verification Failed: Computed output does not match expected output.
